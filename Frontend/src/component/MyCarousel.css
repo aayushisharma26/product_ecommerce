@@ -1,0 +1,100 @@
+Container should take the full screen
+.carousel .carousel-slider {
+    position: relative;
+    height: 100px;
+    width: 100vw;
+}
+
+.carousel img {
+    height: 500px; 
+    object-fit: cover;
+    width: 10%; 
+}
+
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-arrow-prev {
+    left: 0; 
+}
+
+.carousel-arrow-next {
+    right: 0; 
+}
+
+.carousel-center-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    width: 100%;
+}
+
+.left-image, .right-image {
+    height: 300px;
+    
+    width: 300px;
+}
+
+.center-text {
+    text-align: center;
+    margin: 0 20px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.carousel-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.carousel-button:hover {
+    background-color: #333;
+}
+
+.carousel .control-dots {
+    display: none; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
