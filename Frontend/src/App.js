@@ -5,6 +5,8 @@ import MyProject from './component/MyProject';
 import Signup from './component/Signup';
 import Home from'./component/Home';
 import AllCategory from './component/AllCategory';
+import AllProduct from './component/AllProduct';
+
 import Footer from './component/Footer';
 import Carousel from './component/Carousel'; 
 
